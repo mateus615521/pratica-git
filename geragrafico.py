@@ -18,5 +18,6 @@ def main():
     plt.ylabel('Valores de entrada')
     plt.xlabel('Amostragem')
     plt.show()
+    
 
 main()
