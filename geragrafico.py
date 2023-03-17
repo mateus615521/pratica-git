@@ -8,8 +8,8 @@ def main():
     valores = leitor.getValores()
     print(valores)
 
-
-    plt.plot(valores)
+    for serie in valores:
+       plt.plot(serie)
     plt.title('Gráfico de linhas')
     plt.ylabel('Valores de entrada')
     plt.xlabel('Amostragem')
